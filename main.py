@@ -21,4 +21,4 @@ async def on_message(message):
 		await message.channel.send("hey dirtbag")
 
 dotenv.load_dotenv()
-bot.run(os.getenv("TOKEN"))
+bot.run(os.getenv("TOKEN", default="/Users/kshitij/Documents/Projects/Discord-Bot-LLMs/Assets/.env"))
