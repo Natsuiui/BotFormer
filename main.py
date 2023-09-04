@@ -27,6 +27,9 @@ async def on_message(message):
 		await message.channel.send(processing.message_conversation(message=message.content))
 	elif type == "Masking":
 		await message.channel.send(processing.message_masking(message=message.content))
+	elif type == "Translate":
+		await message.channel.send(processing.message_translate(message=message.content))
+
 
 dotenv.load_dotenv()
 bot.run(os.getenv("TOKEN"))
