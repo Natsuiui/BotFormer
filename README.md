@@ -19,4 +19,4 @@ UPDATES - 27/8/23 -
 Added a CasualLM for the Conversational part and a Fill-Mask LM for the mask filling tasks! Works well and good for now!
 
 UPDATES - 4/9/23 - 
-Did 
+Added a Translation pipeloine -- NOT WORKINNNGGGG
